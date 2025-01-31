@@ -1,19 +1,13 @@
 import { Title } from "@solidjs/meta";
-import Counter from "~/components/Counter";
 
 export default function Home() {
-  return (
-    <main>
-      <Title>Hello World</Title>
-      <h1>Hello world!</h1>
-      <Counter />
-      <p>
-        Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
-          start.solidjs.com
-        </a>{" "}
-        to learn how to build SolidStart apps.
-      </p>
-    </main>
-  );
+	return (
+		<div class="h-full grid place-items-center">
+			<Title>wardxela</Title>
+			<h1 class="text-[clamp(18px,13vw,300px)] font-[Notable] flex flex-col items-center leading-[calc(100%-3.5vw)]">
+			<span class="-ml-[11vw]">WARD</span>
+			<span class="-mr-[11vw]">XELA</span>
+			</h1>
+		</div>
+	);
 }
