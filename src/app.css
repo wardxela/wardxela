@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+/* TODO: make it local i guess */
 @import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
 
 html, body, #app {
