@@ -8,7 +8,7 @@ export default function Home() {
 			<Title>wardxela</Title>
 			<div class="h-full grid grid-cols-3 grid-rows-3 p-10">
 				<div class="place-self-center col-start-2 row-start-2">
-					<h1 class="text-[clamp(18px,13vw,300px)] font-[Notable] flex flex-col items-center leading-[calc(100%-3.5vw)] -mt-[3.5vw]">
+					<h1 class="text-[clamp(18px,13vw,300px)] font-notable flex flex-col items-center leading-[calc(100%-3.5vw)] -mt-[3.5vw]">
 						<span class="-ml-[11vw]">WARD</span>
 						<span class="-mr-[11vw]">XELA</span>
 					</h1>
@@ -111,6 +111,26 @@ const links: SocialLink[] = [
 		),
 	},
 	{
+		href: "https://www.twitch.tv/wardxela",
+		icon: (
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				xml:space="preserve"
+				viewBox="0 0 2400 2800"
+				height="20"
+			>
+				<path
+					class="fill-neutral-950"
+					d="m2200 1300-400 400h-400l-350 350v-350H600V200h1600z"
+				/>
+				<g fill="#FFF">
+					<path d="M500 0 0 500v1800h600v500l500-500h400l900-900V0H500zm1700 1300-400 400h-400l-350 350v-350H600V200h1600v1100z" />
+					<path d="M1700 550h200v600h-200zm-550 0h200v600h-200z" />
+				</g>
+			</svg>
+		),
+	},
+	{
 		href: "https://www.youtube.com/@wardxela",
 		icon: (
 			<svg
@@ -122,7 +142,10 @@ const links: SocialLink[] = [
 					d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z"
 					fill="#FFF"
 				/>
-				<path class="fill-neutral-950" d="m102.421 128.06 66.328-38.418-66.328-38.418z" />
+				<path
+					class="fill-neutral-950"
+					d="m102.421 128.06 66.328-38.418-66.328-38.418z"
+				/>
 			</svg>
 		),
 	},
