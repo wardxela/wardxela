@@ -1,3 +1,3 @@
 # wardxela
 
-Developer, do music for fun
+Developer, I guess
